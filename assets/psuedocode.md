@@ -28,7 +28,7 @@
     -Correct answer
 
 3. create a startQuiz() function triggered by the StartQuizBtn
-    -hide start csreen      
+    -hide start Screen      
     -unhide question screen
     -start timer
     -grab first question in the array 
