@@ -9,17 +9,59 @@
 </head>
 <body>
     <header>
-        <h1 id="view-scores">View Scores</h1>
+        <h1 id="viewscores">View Scores</h1>
         <h1>Time:</h1>
     </header>
 
-    <div id="container"class=show>
-        <div>
-            <h1>Coding Quiz Challenge</h1>
+<!-- Start screen -->
+        <div id="startContainer"class=show>
+            <h2>Coding Quiz Challenge</h2>
             <p>Answer as many questions as you can before the timer in the upper right runs out! For every answer you get wrong the time will be reduced. GOOD LUCK!</p>
-            <button>Start</button>
+            <button class="button" id="startGame">Lets go!</button>
         </div>
-    </div>
+    
+<!-- Question screen -->
+        <div id="questionContainer"class="hide">
+            <div class="questions">
+                <div id="question"></div>
+                <div id="buttons"></div>
+            </div>
+        </div>
+
+<!-- End of game screen -->
+        <div id="theEndContainer" class="hide">
+            <div class="endContainer">
+                    <div id="score">
+                        <h2>Done!</h2>                  
+                    </div>
+<!-- Submit score                 -->
+                        <form>
+                            <p>Enter Your Name</p>
+                            <input type="text" name="name" id="name" class="textInput" />
+                            <button class="button" id="sumbit" type="submit">Submit Score</button> </p>
+                        </form>                
+            </div>
+        </div>
+
+<!-- Score page -->
+        <div id="theScorePage" class="hide">
+            <div class="scoreContainer">
+              <h1 class="highScore">High Scores</h1>
+                <ol id="scoreList" class="highScore"></ol>
+                <div>
+                    <button class="button" id="again">Play Again</button>
+                    <button class="button" id="clearScores">Clear Scores</button>
+                </div>
+            </div>
+        </div>
+  
+
+        <div class="hide" id="correct">
+            <h2>You are correct</h2>
+        </div>
+        <div class="hide" id="wrong">
+            <h2>You got that one wrong</h2>
+        </div>
 
     <script src="./assets/script.js"></script>
 </body>
