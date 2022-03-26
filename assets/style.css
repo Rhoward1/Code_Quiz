@@ -49,36 +49,59 @@ p {
     font-weight: bold;
 }  
 
+.start {
+    align-items: center;
+    text-align: center;
+}
 
-.button {
+.start h1, .start p {
+    text-align: center;
+}
+
+.button{
     background:black;
     color: white;
     font-weight: bold;
     padding: 10px;
-    border-radius: 10px;
-    border: 2px white;
-    box-shadow: 5px 15px 15px rgb(80, 79, 79);
+    border-radius: 5px;
+    box-shadow: 5px 15px 15px slategray;
     margin-top: 5px;
 }
 
-.questions {
+.questions{
     align-items: flex-start;
     justify-content: flex-start;
     padding: 20px 10px;
     margin: auto;
-  }
-
-.hide {
-    display: none;
 }
 
 .show {
     display: flex;
 }
 
-#question {
+.hide {
+    display: none;
+}
+
+#question{
     color: darkblue;
     text-align: left;
-    font-size: 25pxrem;
+    font-size: 25px;
     font-weight: bold;
-  }
+}
+
+.message {
+    font-size: 25px;
+    text-align: center;
+    color: lightslategrey;
+    font-style: italic;
+    margin: 0 100px;
+}
+
+.message h2 {
+   border-top: 2px solid lightslategrey;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 10px;
+}
+
