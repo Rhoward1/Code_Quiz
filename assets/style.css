@@ -2,7 +2,6 @@ body{
     background: whitesmoke;
     color:darkblue;
     margin: 5;
-    /* padding: 5; */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -14,7 +13,7 @@ header{
 }
 
 header h1{
-    /* padding-left: 10px; */
+    
     font-size: 25px;
     text-shadow: 5px 15px 15px black;
     display: inline;
@@ -26,7 +25,7 @@ header h1{
     color: darkblue;
     display: inline;
     text-align: right;
-    padding-right: 20px;
+    
 }
 
 .startContainer{
@@ -50,14 +49,6 @@ p {
     font-weight: bold;
 }  
 
-/* .start {
-    align-items: center;
-    text-align: center;
-}
-
-.start h1, .start p {
-    text-align: center;
-} */
 
 .button {
     background:black;
