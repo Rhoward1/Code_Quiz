@@ -29,8 +29,9 @@ header h1{
 }
 
 .startContainer{
+    display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     margin: auto;
     padding: 20px;
 }
@@ -44,17 +45,21 @@ h2{
 
 p {
     text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
     color:black;
     font-size: 20px;
     font-weight: bold;
 }  
 
+
 .start {
+    margin: auto 50%;
     align-items: center;
     text-align: center;
 }
 
-.start h1, .start p {
+.start h2, .start p {
     text-align: center;
 }
 
@@ -66,6 +71,7 @@ p {
     border-radius: 5px;
     box-shadow: 5px 15px 15px slategray;
     margin-top: 5px;
+    
 }
 
 .questions{
@@ -77,6 +83,7 @@ p {
 
 .show {
     display: flex;
+    
 }
 
 .hide {
@@ -104,4 +111,20 @@ p {
    text-align: center;
    padding-top: 10px;
 }
+
+#startButton.button{
+    
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 15%;
+        width: 15%;
+        margin-inline:43% ;
+      }
+    /* position: relative;
+    top: 0%;
+    left: 50%;
+    right: 50%;
+} */
 

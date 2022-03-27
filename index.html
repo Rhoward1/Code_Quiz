@@ -15,9 +15,11 @@
 
 <!-- Start screen -->
         <div id="startContainer"class=show>
-            <h2>Coding Quiz Challenge</h2>
-            <p>Answer as many questions as you can before the timer in the upper right runs out! For every answer you get wrong the time will be reduced. GOOD LUCK!</p>
-            <button class="button" id="startGame">Lets go!</button>
+            <div class="inStartContainer">
+                <h2>Coding Quiz Challenge</h2>
+                <p>Answer as many questions as you can before the timer in the upper right runs out! For every answer you get wrong the time will be reduced. GOOD LUCK!</p>
+                <button class="button" id="startButton">Lets go!</button>
+            </div>
         </div>
     
 <!-- Question screen -->
@@ -35,7 +37,7 @@
                         <h2>Done!</h2>                  
                     </div>
 <!-- Submit score                 -->
-                        <form>
+                        <form id="nameForm" class="name">
                             <p>Enter Your Name</p>
                             <input type="text" name="name" id="name" class="textInput" />
                             <button class="button" id="sumbit" type="submit">Submit Score</button> </p>

@@ -22,7 +22,7 @@
     -answerChoicesEl
     toggle?
 
-2. Create an array onf objects that hold all questions -- can be a seperate JS file
+2. Create an array of objects that hold all questions -- can be a seperate JS file
     -answer choices 
     -Question text
     -Correct answer
