@@ -22,13 +22,13 @@
     -answerChoicesEl
     toggle?
 
-2. Create an array of objects that hold all questions -- can be a seperate JS file
+2. Create an array onf objects that hold all questions -- can be a seperate JS file
     -answer choices 
     -Question text
     -Correct answer
 
 3. create a startQuiz() function triggered by the StartQuizBtn
-    -hide start Screen      
+    -hide start csreen      
     -unhide question screen
     -start timer
     -grab first question in the array 
@@ -47,7 +47,7 @@
     -unhide end of quiz element
     -unhide your final score element, form, submit button.
 
-7. Create functionality to save high scores to localStorage   
+7. create function to    
 
 
 

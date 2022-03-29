@@ -8,8 +8,9 @@
     <title>Code_Quiz</title>
 </head>
 <body>
+    
     <header>
-        <h1 id="viewscores">View Scores</h1>
+        <h1 id="viewScores">View Scores</h1>
         <h1 class="timer">Time: <span id="timer"></span></h1>
     </header>
 
@@ -26,8 +27,15 @@
         <div id="questionContainer"class="hide">
             <div class="questions">
                 <div id="question"></div>
-                <div id="buttons"></div>
+                <div id="answer-buttons" class="button-grid"></div>
             </div>
+        </div>
+
+        <div class="hide" id="correct">
+            <h2>You are correct</h2>
+        </div>
+        <div class="hide" id="wrong">
+            <h2>!!-----WRONG-----!!</h2>
         </div>
 
 <!-- End of game screen -->
@@ -37,10 +45,10 @@
                         <h2>Done!</h2>                  
                     </div>
 <!-- Submit score                 -->
-                        <form id="nameForm" class="name">
-                            <p>Enter Your Name</p>
-                            <input type="text" name="name" id="name" class="textInput" />
-                            <button class="button" id="sumbit" type="submit">Submit Score</button> </p>
+                        <form id="initialsForm" class="initials">
+                            <p>Enter Your Initials</p>
+                            <input type="text" name="initials" id="initials" class="text-Input" />
+                            <button class="button" id="submitScore" type="submit">Submit Score</button> </p>
                         </form>                
             </div>
         </div>
@@ -48,8 +56,8 @@
 <!-- Score page -->
         <div id="theScorePage" class="hide">
             <div class="scoreContainer">
-              <h1 class="highScore">High Scores</h1>
-                <ol id="scoreList" class="highScore"></ol>
+              <h1 id="displayScoreList" class="highScore">High Scores</h1>
+                <ol id="highScoreList" class="scoreList"></ol>
                 <div>
                     <button class="button" id="again">Play Again</button>
                     <button class="button" id="clearScores">Clear Scores</button>
@@ -58,12 +66,6 @@
         </div>
   
 
-        <div class="hide" id="correct">
-            <h2>You are correct</h2>
-        </div>
-        <div class="hide" id="wrong">
-            <h2>You got that one wrong</h2>
-        </div>
 
     <script src="./assets/script.js"></script>
 </body>
