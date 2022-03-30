@@ -1,4 +1,5 @@
 # <H1> Code_Quiz
+# <H6> By Ryan Howard
 
 # <H3> 
     The Code Quiz app features dynamically updated HTML and CSS powered by the JavaScript code.
@@ -12,6 +13,7 @@
 
 #  <H3> GitHub Repository link <https://github.com/Rhoward1/Code_Quiz>
 
-## ![Code Quiz Start page](./Assets/images/startpage.png.png "Screenshot of the Start Page")
-## ![Code Quiz Question Page](./Assets/images/questionpage.png.png "Screenshot of the Question Page")
-## ![Code Quiz Score page](./Assets/images/scorepage.png.png "Screenshot of the Score Page") 
+
+## ![Code Quiz Start page](https://github.com/Rhoward1/Code_Quiz/blob/main/assets/images/startpage.png?raw=true "Screenshot of the Start Page")
+## ![Code Quiz Question Page](https://github.com/Rhoward1/Code_Quiz/blob/main/assets/images/questionpage.png?raw=true "Screenshot of the Question Page")
+## ![Code Quiz Score page](https://github.com/Rhoward1/Code_Quiz/blob/main/assets/images/scorepage.png?raw=true "Screenshot of the Score Page") 
